@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const name = 'Josh Perez';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+          <h1> Hello world, ok?</h1>
+          <div>Привет, {name}</div>
+      </main>
     </div>
   );
 }
